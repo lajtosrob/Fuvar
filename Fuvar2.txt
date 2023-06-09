@@ -1,0 +1,38 @@
+6. Határozza meg és írja ki a képernyőre a minta szerint, hogy összesen hány km-t tettek
+meg a taxisok (1 mérföld = 1,6 km)! Az eredményt két tizedesjegyre kerekítve jelenítse meg a képernyőn
+ 
+
+7. Határozza meg és irja ki a képernyőre a minta szerint az időben leghosszabb fuvar adatait!
+Feltételezheti, hogy nem alakult ki holtverseny.
+
+8. Hozzon létre hibak.txt néven egy UTF-8 kódolasu szöveges állományt, ami
+tartalmazza azokat az adatokat, amelyek esetében hiba van az eredeti állományban! Hibás
+sornak tekintjük azokat az eseteket, amelyekben az utazás időtartama és a viteldíj egy
+nullandl nagyobb érték, de a hozzá tartozó megtett távolság értéke nulla. A sorok indulési
+időpont szerint növekvő rendben legyenek az állományban! A hibak.txt állomány
+szerkezete egyezzen meg a fuvar.csv állomány szerkezetével!
+
+Minta
+
+	3. feladat: 1859 fuvar
+	4. feladat: 4 fuvar alatt: 33,75§
+	5. feladat:
+		bankkártya: 763 fuvar
+		készpénz: 1050 fuvar
+		vitatott: 4 fuvar
+		ingyeres: 10 fuvar
+		ismeretlen: 2 fuvar
+	6. feladat: 8699,95km
+	7.feladat: Leghosszabb fuvar:
+		Fuvar hossza: 9128 masodperc
+		Taxi azonositó: 2559
+		Megtett távolság: 35,1 km
+		Viteldíj: 88,25%
+	8. feladat: hibak.txt
+
+
+   
+
+
+ 
+

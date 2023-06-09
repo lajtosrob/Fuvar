@@ -1,0 +1,68 @@
+ 
+
+KORLATOZOTT TERTESZTEST | Lz példany
+
+L
+T5421305Q
+
+ 
+
+1. feladat — 
+
+Programozás (C# LINQ)
+
+Fuvar
+A követkeő feladatban 2016-os chicagói taxis fuvarozások adatait tartalmazó szöveges
+állományt kell feldolgoznia. A megoldás során vegye figyelembe a következőket!
+
+o A képernyőre írást igénylő részfeladatok eredményének megjelenítése előtt írja a 
+képernyőre a feladat sorszámát (például: 3.feladat:)!
+
+o Az egyes feladatokban a kiírásokat a minta szerint készítse el!
+
+® Az ékezetmentes kiírás is elfogadott,
+
+o A program megirásakor a fájlban lévő adatok helyes szerkezetét nem kell ellenőriznie,
+feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak megfelelnek
+
+o Megoldását úgy készitse el, hogy az azonos szerkezetű, de tetszőleges bemeneti adatok
+mellett is helyes eredményt adjon!
+
+1. A feladat megoldaséhoz hozzon létre grafikus vagy konzolalkalmazést (projektet) Fuvar
+azonosítóval
+
+2. Az UTF-8 kódolású fuvar.csv állomány tartalmazza a fuvarok adatait. A feladatok
+megoldása előtt tanulmányozza az állomány szerkezetét! Minden adatsorhoz rendre a 
+következő mezők tartoznak:
+
+- taxi azonosítója (egész szám, pl: 8192)
+- indulás időpontja (időbélyegző, melyben minden adat előnullázott, akár 
+szövegként is kezelhető, pl.: 2016-12-02 07:45:00)
+- az utazás időtartama (egész szám, az adatok másodpercben értendőek, pl. 900)
+- a megtett távolság (valós szám, az adatok mérföldben értendőek, pl. 1,5)
+- viteldíj (valós szám, az adatok dollárban értendőek, pl. 7,5)
+- borravaló ( valós szám, az adatok dollárban értendőek, pl. 4,15)
+- a fizetés módja (szöveges, pl. "bankkártya")
+
+Az adatokat pontosvessző választja el egymástól. Ügyeljen arra, hogy a fájl első sora az 
+adatok fejlécét tartalmazza! Olvassa be a fuvar.csv állományban található adatokat és 
+tárolja el egy megfelelően megválasztott adatszerkezetben!
+ 
+
+3. Határozza meg és irja ki a képernyőre a minta szerint, hogy hány utazéás került
+feljegyzésre az állományban!
+
+4. Határozza meg és irja ki a képernyőre a minta szerint, hogy a 6185-os azonosilójú
+taxisnak mennyi volt a bevétele, és ez hány fuvarhól állt! Feltételezheti, hogy van ilyen
+azonositójú taxis.
+
+5. Programjával határozza meg az állomány adataiból a fizetési módokat, majd összesitse,
+hogy az egyes fizetési módokat hányszor választották az utak során! Ezeket az eredményeket
+a minta szerint írja a képernyőre! A kiírás során a fizetési módok sorrendje bármilyen lehet.
+
+Forrás: https://data.cityofchicago.org
+
+
+
+ 
+
